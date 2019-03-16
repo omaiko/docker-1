@@ -1,0 +1,7 @@
+apt-get update
+apt-get upgrade -y
+apt-get install -y build-essential git
+#sudo apt-get update only updates the package list whereas sudo apt-get upgrade will install the newer version of the package
+#build-essential contains a list of packages which are essential for building Ubuntu packages
+#---
+#run as alpine without shell

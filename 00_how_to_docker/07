@@ -1,0 +1,2 @@
+docker inspect -f '{{.NetworkSettings.IPAddress}}' overlord
+#`docker inspect `container ID` for detailed information

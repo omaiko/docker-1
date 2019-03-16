@@ -1,0 +1,4 @@
+docker run -it --rm alpine /bin/sh
+#use "-t", usually in the combination "-it" and you have a terminal driver added, which if you are interacting with the process is likely what you want. It basically makes the container start look like a terminal connection session
+#for shell you can use /bin/ash OR /bin/sh OR ash OR sh
+#`exit` in terminal for exit
